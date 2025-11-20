@@ -102,7 +102,7 @@ export default function Home() {
       </a>
       <main className="mx-auto flex max-w-6xl flex-col gap-10 px-4 md:px-8">
         {/* Hero image banner */}
-        <div className="relative -mx-4 overflow-hidden rounded-[var(--radius-lg)] md:-mx-8">
+        <div className="relative overflow-hidden rounded-[var(--radius-lg)]">
           <Image
             src="/images/hero-group-photo.jpg"
             alt="AI Camp cohort group photo"
