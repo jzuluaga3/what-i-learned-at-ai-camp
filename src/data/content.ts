@@ -30,7 +30,7 @@ export const agenticCoding = {
     "Faster iteration loops and shorter PR cycles.",
     "Documentation captured in-line with code generation.",
     "Cleaner handoffs because AI handles boilerplate and tests.",
-    "Lower context switching—engineers stay in system design.",
+    "Lower context switching - engineers stay in system design.",
   ],
   impact: [
     "Concept-to-production time compressed from days to hours.",
@@ -81,7 +81,7 @@ export const mcpDeepDive = {
     ],
     result: [
       "Claude now responds to “What are the next trains at Clarendon?” with live WMATA data.",
-      "No context switching—real-time transit data appears directly in the chat panel.",
+      "No context switching - real-time transit data appears directly in the chat panel.",
       "Pattern is portable to Yext data services and client environments.",
     ],
   },
@@ -95,7 +95,7 @@ export const mcpDeepDive = {
 
 export const singleStepWorkflows = {
   principle:
-    "Agents are most reliable when they receive a single, unambiguous task with exactly the data they need—no more, no less.",
+    "Agents are most reliable when they receive a single, unambiguous task with exactly the data they need - no more, no less.",
   antiPatterns: [
     "Multi-threaded prompts with vague routing instructions.",
     "Giant context dumps that shift prioritization back to the model.",
@@ -118,7 +118,7 @@ export const singleStepWorkflows = {
 export const ethicsContent = {
   title: "AI Ethics: The Transparency Imperative",
   insight:
-    "Trust is won or lost on disclosure. The same AI workflow is celebrated when users know it’s there—and rejected when they don’t.",
+    "Trust is won or lost on disclosure. The same AI workflow is celebrated when users know it's there - and rejected when they don't.",
   positive: [
     "Users see clear labels when AI is assisting.",
     "People understand what data AI touches and why.",

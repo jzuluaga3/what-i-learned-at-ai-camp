@@ -103,14 +103,14 @@ export default function Home() {
       <main className="mx-auto flex max-w-6xl flex-col gap-10 px-4 md:px-8">
         {/* Hero image banner */}
         <div className="relative overflow-hidden rounded-[var(--radius-lg)]">
-          <Image
+        <Image
             src="/images/hero-group-photo.jpg"
             alt="AI Camp cohort group photo"
             width={2200}
             height={1400}
             className="h-[450px] w-full object-cover md:h-[550px]"
-            priority
-          />
+          priority
+        />
         </div>
 
         <header className="sticky top-6 z-20 rounded-full border border-white/40 bg-white/30 px-6 py-4 backdrop-blur-lg">
@@ -178,14 +178,14 @@ export default function Home() {
                 ))}
               </ul>
             </div>
-          </div>
+        </div>
         </section>
 
         <Section
           id="agentic-coding"
           eyebrow="Agentic Coding with Cursor"
           title="Delegating implementation so humans stay on architecture"
-          subtitle="Cursor shifts AI from autocomplete to partner. We give requirements, it delivers polished features—documentation, tests, and context included."
+          subtitle="Cursor shifts AI from autocomplete to partner. We give requirements, it delivers polished features - documentation, tests, and context included."
         >
           <div className="grid gap-6 md:grid-cols-2">
             <Card title="What is Agentic Coding?" items={agenticCoding.definition} />
@@ -331,8 +331,8 @@ export default function Home() {
         <Section
           id="tooling"
           eyebrow="Tooling Built"
-          title="Production applications already live in Yext Services"
-          subtitle="Every prototype at AI Camp tied directly to a Services workflow. These tools are in production today, delivering measurable impact."
+          title="Prototype Applications for Yext Services"
+          subtitle="Every prototype at AI Camp tied directly to a Services workflow. These prototypes could deliver measurable impact."
         >
           <div className="grid gap-6 md:grid-cols-2">
             {tooling.map((tool) => (
@@ -393,7 +393,7 @@ export default function Home() {
                 Schedule executive readout →
               </Link>
             </div>
-          </div>
+        </div>
         </Section>
 
         <footer className="pb-6 text-center text-sm text-[var(--color-ink-300)]">

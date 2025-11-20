@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AI Camp 2025 Showcase | Yext Services",
     description:
-      "From agentic coding to MCP integrations—see how AI Camp learnings are informing Yext Services delivery.",
+      "From agentic coding to MCP integrations - see how AI Camp learnings are informing Yext Services delivery.",
   },
 };
 
