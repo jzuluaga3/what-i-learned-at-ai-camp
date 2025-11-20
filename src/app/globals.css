@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #1a1b1c;
+  --yext-gradient: linear-gradient(135deg, #259bbc 0%, #1a7189 55%, #008eb6 100%);
+}
+
+@theme inline {
+  --color-midnight: #1a1b1c;
+  --color-mist: #eeeff0;
+  --color-snow: #ffffff;
+  --color-sea-blue: #1a7189;
+  --color-electric-blue: #259bbc;
+  --color-frost-blue: #cee7ee;
+  --color-coral: #ec675f;
+  --color-cta-blue: #008eb6;
+  --color-slate-600: #5b6166;
+  --color-ink-300: #8e9499;
+  --font-sans: var(--font-yext), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --radius-md: 1.25rem;
+  --radius-lg: 2.5rem;
+  --radius-full: 999px;
+  --shadow-card: 0 25px 45px rgba(26, 27, 28, 0.12);
+  --shadow-focus: 0 0 0 3px rgba(37, 155, 188, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgba(37, 155, 188, 0.25);
+  color: var(--color-midnight);
+}
+
+body {
+  background: var(--color-snow);
+  color: var(--color-midnight);
+  font-family: var(--font-yext), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-midnight);
+}
+
+p {
+  color: var(--color-slate-600);
+}
+
+a {
+  color: var(--color-electric-blue);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--color-sea-blue);
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: none;
+  box-shadow: var(--shadow-focus);
+  border-radius: 0.5rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
