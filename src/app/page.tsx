@@ -164,10 +164,10 @@ export default function Home() {
           <p className="mt-2 text-sm uppercase tracking-[0.5em] text-[var(--color-ink-300)]">
             {heroContent.byline}
           </p>
-          <div className="mt-8 grid gap-6 md:grid-cols-2">
+          <div className="mt-8">
             <div className="rounded-3xl border border-[var(--color-mist)] bg-[var(--color-mist)] p-6">
               <h3 className="text-sm font-semibold uppercase tracking-[0.3em] text-[var(--color-electric-blue)]">
-                Key Signals
+                Key Learnings
               </h3>
               <ul className="mt-4 space-y-3 text-base text-[var(--color-slate-600)]">
                 {heroContent.highlights.map((item) => (
@@ -176,25 +176,6 @@ export default function Home() {
                     {item}
                   </li>
                 ))}
-              </ul>
-            </div>
-            <div className="rounded-3xl border border-[var(--color-mist)] bg-[var(--color-mist)] p-6">
-              <h3 className="text-sm font-semibold uppercase tracking-[0.3em] text-[var(--color-electric-blue)]">
-                Technical Details
-              </h3>
-              <ul className="mt-4 space-y-3 text-base text-[var(--color-slate-600)]">
-                <li className="flex gap-3">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-[var(--color-electric-blue)]" />
-                  Performance-optimized
-                </li>
-                <li className="flex gap-3">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-[var(--color-electric-blue)]" />
-                  Mobile-ready
-                </li>
-                <li className="flex gap-3">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-[var(--color-electric-blue)]" />
-                  Vercel prepared
-                </li>
               </ul>
             </div>
           </div>
